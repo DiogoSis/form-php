@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Cadastrar Novo Usuario</title>
+</head>
+<body>
+  <div class="container" >
+    <h1>Cadastrar Usuario</h1>
+    <form  action="processa_usuario.php" method="post">
+      <div class="col-4">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome" class="form-control">
+      </div>
+      <div class="col-4">
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input type="date" name="dataNascimento" id="dataNascimento" class="form-control" value="1980-01-01">
+      </div>
+      <div class="col-4">
+        <label for="telefone">Telefone para Contato</label>
+        <input type="tel" name="telefone" id="telefone" class="form-control">
+      </div>
+      <div class="col-4">
+        <label for="emmail">Melhor E-mail</label>
+        <input type="email" name="email" id="email" class="form-control">
+      </div>
+      <div class="col-4">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" class="form-control">
+      </div>
+      <br>
+      <button type="submit" name="enviarDados" class="btn btn-primary">Cadastrar</button>
+      <a href="index.html" class="btn btn-danger">Cancelar</a>
+    </form>
+  </div>
+  
+</body>
+</html>
