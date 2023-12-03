@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
       </div>
       <br>
       <button type="submit" name="enviarDados" class="btn btn-primary">Cadastrar</button>
-      <a href="index.html" class="btn btn-danger">Cancelar</a>
+      <a href="index.php" class="btn btn-danger">Cancelar</a>
     </form>
   </div>
   
